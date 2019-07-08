@@ -4,7 +4,7 @@ class Dog:
         self.age = age
 
     def speak(self):
-        print(f"Yo nigga im {self.name} and I'm {self.age}")
+        print(f"Hello im {self.name} and I'm {self.age}")
 
     def talk(self):
         print(f"{self.name} says:  'Bark!'")
@@ -12,7 +12,7 @@ class Dog:
 
 class Cat(Dog):
     def __init__(self, name, age, color):
-        super().__init__(name, age)  # 'Dog' is the super class, and this basically copies lines 3 & 4
+        super().__init__(name, age)  # 'Dog' is the super class, and this basically initializes name and age like the dog class (lines 3 & 4)
         self.color = color
 
     def talk(self):
@@ -28,18 +28,6 @@ class Cat(Dog):
 
 # dundas.speak()
 # dundas.talk()
-
-
-'''
-class Dog():
-    def __init__(self, name, age, color):
-        self.name = name
-        self.age = age
-        self.color = color
-
-    def talk(self):
-        print(f"Yo nigga im {self.name}")
-'''
 
 
 class Vehicle:
