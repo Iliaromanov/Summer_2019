@@ -12,11 +12,11 @@ class Dog:
         self.name = name
         self.dogs.append(self)
 
-    @classmethod
+    @classmethod  # decorator
     def num_dogs(cls):
         return len(cls.dogs)
 
-    @staticmethod
+    @staticmethod  # decorator
     def bark(n):
         for _ in range(n):
             print("Bark!")
