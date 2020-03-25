@@ -1,4 +1,3 @@
-# Basically Useless
 
 # Class method is to access class variables without having any objects
 
